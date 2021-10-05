@@ -1,0 +1,255 @@
+html * {
+  font-family: verdana;
+  margin: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 4rem 1.25rem 5rem;
+}
+
+.site__name {
+  margin-right: auto;
+  color: #335576;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.nav__links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__item {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.container__link {
+  text-decoration: none;
+  padding-bottom: 0.625rem;
+  color: black;
+}
+
+.container__link--selector {
+  border-bottom: #db7a4e solid 0.1875rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: #fefaf5;
+  color: #335576;
+}
+
+.footer__title {
+  padding-bottom: 2rem;
+}
+
+.footer-subtitle {
+  color: #db7a4e;
+  font-size: 0.65625rem;
+  padding-bottom: 0.625rem;
+}
+
+.hoursandday__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hours__weekdays-info {
+  padding-right: 2rem;
+}
+
+.hours__saturday-info {
+  padding-right: 2rem;
+}
+
+.hours__sunday-info {
+  padding-right: 2rem;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 5rem;
+}
+
+.footer__icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__icon-instagram {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  height: 27px;
+  width: 27px;
+}
+
+.footer__icon-facebook {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  height: 27px;
+  width: 15px;
+}
+
+.footer__icon-twitter {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  height: 27px;
+  width: 30px;
+}
+
+.background__container-hawaii {
+  width: 100vw;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/hawaii.jpg);
+}
+
+.itinerary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.itinerary__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.itinerary__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 14rem;
+  max-width: 15.5rem;
+  min-height: 21.5rem;
+  max-height: 22.75rem;
+  padding: 1.25rem;
+  margin: 1.25rem;
+  border-radius: 0.34375rem;
+  background-color: white;
+}
+
+.itinerary__activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.itinerary__title {
+  text-align: left;
+  padding-left: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  color: white;
+  font-size: 3.75rem;
+}
+
+.card__title {
+  border-bottom: black 0.125rem solid;
+  text-align: center;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.card__one {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #fff0ed;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__two {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #fff0ed;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__three {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #fff0ed;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card__four {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #fff0ed;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+
+.background__container-iceland {
+  width: 100vw;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/iceland.jpg);
+}
+
+.background__container-greece {
+  width: 100vw;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/greece.jpg);
+}
+/*# sourceMappingURL=destination.css.map */

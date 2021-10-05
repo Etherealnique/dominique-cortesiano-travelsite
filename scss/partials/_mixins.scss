@@ -1,0 +1,45 @@
+@import "./variables";
+
+// TRAVELSITE MAIN PAGE STARTS
+
+@mixin recommendation-card {
+  display: flex;
+  min-width: 14rem;
+  max-width: 15.5rem;
+  min-height: 21.5rem;
+  max-height: 22.75rem;
+  padding: 1.25rem;
+  margin: 1.25rem;
+  border-radius: 0.34375rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin recommedations__card-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: $recommedationcardtitlecolor;
+}
+
+// TRAVELSITE MAIN PAGE ENDS
+
+// DESTINATION PAGES STARTS
+
+@mixin cardsubtitlespacing {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: #fff0ed;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+@mixin countrybackground {
+  width: 100vw;
+  height: 88vh;
+  background-size: cover;
+  background-position: center;
+}
+
+// DESTINATION PAGES ENDS
